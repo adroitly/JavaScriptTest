@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="">
     <head>
+        <script type="text/javascript" src="js/testJs/classTest.js"> </script>
         <script>
             function createColorClass(color)
             {
@@ -36,10 +37,14 @@
             }
             function testFunc()
             {
-                var colorObj = createColorClass("红色")
-                alertAction(colorObj)
-                var classTest = new ClassTest("白色")
-                alertAction(classTest)
+                alert("AAAA")
+                var obj = new ClassB("按时打算的")
+                document.write(obj.getName())
+//                classB.sayColor()
+//                var colorObj = createColorClass("红色")
+//                alertAction(colorObj)
+//                var classTest = new ClassTest("白色")
+//                alertAction(classTest)
             }
         </script>
         <meta charset="utf-8">
